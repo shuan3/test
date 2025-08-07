@@ -34,7 +34,8 @@ dagster-cloud-cli==1.7.15
 dagster-graphql==1.7.15
 dagster-pipes==1.7.15
 dagster-webserver==1.7.15
--e git+https://github.com/dagster-io/dagster-quickstart@1738d40ee19ac833d13c3fc2618bb2dc8038eb28#egg=dagster_quickstart
+# Editable install with no version control (dagster_quickstart==0.0.0)
+-e d:\github\dagster_ray\dagster-quickstart
 databricks-sdk==0.38.0
 debugpy==1.8.11
 decorator==5.1.1
@@ -134,6 +135,8 @@ prompt_toolkit==3.0.47
 prophet==1.1.6
 protobuf==4.25.4
 psutil==6.0.0
+psycopg==3.2.9
+psycopg2==2.9.10
 ptyprocess==0.7.0
 pure_eval==0.2.3
 pyarrow==18.1.0
@@ -206,6 +209,7 @@ unicorn==2.1.1
 universal_pathlib==0.2.2
 uritemplate==4.1.1
 urllib3==2.2.2
+uv==0.6.13
 uvicorn==0.30.3
 v==1
 virtualenv==20.28.0
